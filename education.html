@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education - Md Nazmul Hassan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .bg-custom-dark {
+            background-color: #1a202c;
+        }
+        .border-custom-green {
+            border-color: #48bb78 !important;
+        }
+        .text-custom-green {
+            color: #48bb78;
+        }
+        .btn-custom-green {
+            background-color: #48bb78;
+            border-color: #48bb78;
+            color: white;
+        }
+        .btn-custom-green:hover {
+            background-color: #38a169;
+            border-color: #38a169;
+            color: white;
+        }
+        .nav-pills .nav-link.active {
+            background-color: #48bb78;
+        }
+        .nav-pills .nav-link {
+            color: #1a202c;
+        }
+    </style>
+
+<script>
+    function downloadFile() {
+        // Create an invisible anchor element
+        const link = document.createElement("a");
+
+        // Set the URL of the file to be downloaded
+        link.href = "GRE.pdf"; // Replace with the actual file path or URL
+
+        // Set the download attribute with a default file name
+        link.download = "yourfile.txt"; // This sets the file name for the download
+
+        // Append the anchor to the body (necessary for Firefox)
+        document.body.appendChild(link);
+
+        // Programmatically click the anchor to trigger the download
+        link.click();
+
+        // Remove the anchor from the document after the download starts
+        document.body.removeChild(link);
+    }
+    // this section downloads the IELTS report
+    function downloadFile_2() {
+        // Create an invisible anchor element
+        const link = document.createElement("a");
+
+        // Set the URL of the file to be downloaded
+        link.href = "IELTS.pdf"; // Replace with the actual file path or URL
+
+        // Set the download attribute with a default file name
+        link.download = "yourfile_2.txt"; // This sets the file name for the download
+
+        // Append the anchor to the body (necessary for Firefox)
+        document.body.appendChild(link);
+
+        // Programmatically click the anchor to trigger the download
+        link.click();
+
+        // Remove the anchor from the document after the download starts
+        document.body.removeChild(link);
+    }
+</script>
+
+</head>
+<body class="bg-light">
+    <header class="bg-custom-dark text-white py-3 border-bottom border-4 border-custom-green">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <img src="profile-pic (1).png" alt="Profile picture" width="50" height="50" class="rounded-circle me-3">
+                    <h1 class="h4 mb-0">Md Nazmul Hassan</h1>
+                </div>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="homePage.html" class="nav-link text-white">Home</a></li>
+                        <li class="nav-item"><a href="homePage.html#research" class="nav-link text-white">Research</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <a href="homePage.html" class="btn btn-custom-green mb-4">← Home</a>
+
+        <h1 class="mb-4">Education</h1>
+
+        <section class="mb-5">
+            <h2 class="h3 mb-3">Bachelor of Science in Nuclear Science and Engineering</h2>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h3 class="h5">Military Institute of Science and Technology (MIST), Dhaka</h3>
+                            <p class="mb-2">Graduation: April, 2023</p>
+                            <p class="mb-2">Cumulative GPA: 3.43/4.00</p>
+                            <p class="mb-3">Duration: 2018 - 2023</p>
+                            <a href="https://mist.ac.bd/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-custom-green">
+                                <i class="bi bi-link-45deg me-1"></i> Visit MIST Website
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="logo.png" alt="MIST Logo" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--<section class="mb-5">
+            <h2 class="h3 mb-3">Key Courses</h2>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="h5 mb-3">Nuclear Engineering</h4>
+                            <ul class="list-unstyled">
+                                <li>Nuclear Reactor Theory</li>
+                                <li>Nuclear Power Plant Systems</li>
+                                <li>Radiation Detection and Measurement</li>
+                                <li>Nuclear Safety and Security</li>
+                                <li>Radiation Protection and Dosimetry</li>
+                                <li>Nuclear Fuel Cycle</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="h5 mb-3">Supporting Disciplines</h4>
+                            <ul class="list-unstyled">
+                                <li>Advanced Mathematics</li>
+                                <li>Quantum Mechanics</li>
+                                <li>Thermodynamics and Heat Transfer</li>
+                                <li>Materials Science</li>
+                                <li>Computational Methods in Engineering</li>
+                                <li>Environmental Impact Assessment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <section class="mb-5">
+            <h2 class="h3 mb-3">Standardized Test Scores</h2>
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <!-- GRE Section -->
+                  <div class="col-md-6">
+                    <h4 class="h5 mb-3">Graduate Record Examinations (GRE)</h4>
+                    <table class="table table-bordered">
+                      <tbody>
+                        <tr>
+                          <th scope="row">Overall</th>
+                          <td>307</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Quantitative Reasoning</th>
+                          <td>155</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Verbal Reasoning</th>
+                          <td>152</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Analytical Writing</th>
+                          <td>3.5</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <section class="text-center mb-3">
+                      <button class="btn btn-custom-green btn-sm" onclick="downloadFile()">Download GRE test report</button>
+                    </section>
+                  </div>
+                  <!-- IELTS Section -->
+                  <div class="col-md-6">
+                    <h4 class="h5 mb-3">International English Language Testing System (IELTS)</h4>
+                    <table class="table table-bordered">
+                      <tbody>
+                        <tr>
+                          <th scope="row">Overall</th>
+                          <td>7</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Listening</th>
+                          <td>8.5</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Reading</th>
+                          <td>7</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Writing</th>
+                          <td>6</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Speaking</th>
+                          <td>6.5</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <section class="text-center mb-3">
+                      <button class="btn btn-custom-green btn-sm" onclick="downloadFile_2()">Download IELTS test report</button>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <section class="mb-5">
+            <h2 class="mb-4">Additional Training and Workshops</h2>
+            <div class="card">
+                <div class="card-body">
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-medical-tab" data-bs-toggle="pill" data-bs-target="#pills-medical" type="button" role="tab">Medical Imaging</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-quality-tab" data-bs-toggle="pill" data-bs-target="#pills-quality" type="button" role="tab">Quality Assurance</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-ndt-tab" data-bs-toggle="pill" data-bs-target="#pills-ndt" type="button" role="tab">Non-Destructive Testing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-reactor-tab" data-bs-toggle="pill" data-bs-target="#pills-reactor" type="button" role="tab">Research Reactor</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Ghorashalpp-tab" data-bs-toggle="pill" data-bs-target="#pills-Ghorashalpp" type="button" role="tab">Ghorashal-Power Plant</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-conference-tab" data-bs-toggle="pill" data-bs-target="#pills-conference" type="button" role="tab">Conference</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-medical" role="tabpanel" tabindex="0">
+                            <h3 class="h4 mb-3">Medical Imaging and Radiography Certification Course</h3>
+                            <p class="text-muted">October 25 - November 1, 2022</p>
+                            <div id="nppCarousel1" class="carousel slide mb-4" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="medical-imaging-crs.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="medical imaging course">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="certification course on medical physics_Hassan.png" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="medical imaging course">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="MIS-3.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="medical imaging course">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="MIS-4.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="medical imaging course">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="MIS-2.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="medical imaging course">
+                                    </div>
+                                    <!-- Add more carousel items if you have multiple images -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#nppCarousel1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#nppCarousel1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                                
+                            </div>
+                            <p><strong>Location:</strong> Ahsania Mission Cancer & General Hospital, Uttara</p>
+                            <p>Completed a comprehensive certification course in Medical Imaging and Radiography, gaining practical insights through an industrial visit to a leading cancer hospital.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-quality" role="tabpanel" tabindex="0">
+                            <h3 class="h4 mb-3">Quality Assurance and Quality Control Training</h3>
+                            <p class="text-muted">March 22, 2022</p>
+                            <div id="nppCarousel2" class="carousel slide mb-4" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="qa.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <!-- Add more carousel items if you have multiple images -->
+                                </div>
+                               
+                            </div>
+                            <p><strong>Location:</strong> SAJ Engineering & Trading Company</p>
+                            <p>Attended and completed an industrial training program focused on Quality Assurance and Quality Control practices in industrial environments.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-ndt" role="tabpanel" tabindex="0">
+                            <h3 class="h4 mb-3">Non-Destructive Testing (NDT) Methods Training</h3>
+                            <p class="text-muted">March 13 - March 20, 2022</p>
+                            <div id="nppCarousel3" class="carousel slide mb-4" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="NDS-1.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="NDS-2.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="NDS-3.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="NDS-4.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="NDS-5.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="NDS-6.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <!-- Add more carousel items if you have multiple images -->
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#nppCarousel3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#nppCarousel3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <p><strong>Location:</strong> NDT division, Atomic Energy Center Dhaka</p>
+                            <p>Completed an intensive training program on various Non-Destructive Testing methods, gaining hands-on experience with state-of-the-art NDT equipment and techniques.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-reactor" role="tabpanel" tabindex="0">
+                            <h3 class="h4 mb-3">3 MW TRIGA Mark 2 Research Reactor Training</h3>
+                            <p class="text-muted">February 27 - March 3, 2022</p>
+                            <div id="nppCarousel4" class="carousel slide mb-4" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Reactor-1.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Reactor-2.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <!-- Add more carousel items if you have multiple images -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#nppCarousel4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#nppCarousel4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <p><strong>Location:</strong> Atomic Energy Research Establishment (Center for Research Reactor), Dhaka</p>
+                            <p>Participated in an industrial training program focused on the operation and management of the 3 MW TRIGA Mark 2 Research Reactor, gaining valuable insights into nuclear reactor technology and safety protocols.</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-Ghorashalpp" role="tabpanel" tabindex="0">
+                            <h3 class="h4 mb-3">Ghorashal Thermal Powerplant visit</h3>
+                            <p class="text-muted">July 2023</p>
+                            <div id="nppCarousel5" class="carousel slide mb-4" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Ghorashal-powerPlant.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="Ghorashal-powerPlant2.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <!-- Add more carousel items if you have multiple images -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#nppCarousel5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#nppCarousel5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <p><strong>Location:</strong> Ghorashal Power Station, BPDB, Palash, Narsingdi, Bangladesh.</p>
+                            <p>The largest thermal power plant in Bangladesh, was part of my industrial training on power generation</p>
+                        </div>
+
+                        <div class="tab-pane fade" id="pills-conference" role="tabpanel" tabindex="0">
+                            <h3 class="h4 mb-3">4th International Conference on Energy and Power (ICEP-22)</h3>
+                            <p class="text-muted">December 2022</p>
+                            <div id="nppCarousel6" class="carousel slide mb-4" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="Icep_1.jpg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <img src="Icep_2.JPG" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <img src="Icep_3.jpg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <img src="Icep_4.jpg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                                    </div>
+                                    <!-- Add more carousel items if you have multiple images -->
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#nppCarousel6" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#nppCarousel6" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <p>Attended the conference, submitted an abstract, and participated in the poster presentation competition. Won best poster award in the poster presentation category for the  poster presented on "Development of a Radiation Detection and Assistant Robot".</p>
+                        </div>                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="mb-4">Extracurricular Activities</h2>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="h4 mb-3">President, MIST Nuclear Engineering Club</h3>
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="bi bi-facebook text-custom-green me-2"></i>
+                                    <a href="https://www.facebook.com/mistnuclearclub" class="text-decoration-none text-dark">Mist Nuclear Engineering Club - Facebook page</a>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-linkedin text-custom-green me-2"></i>
+                                    <a href="https://www.linkedin.com/company/mist-nuclear-engineering-club/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark">Mist Nuclear Engineering Club - LinkedIn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="text-muted">October 2022 - May 2023</p>
+                    <div id="nppCarousel7" class="carousel slide mb-4" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="club-president.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="certificate-2.jpeg" style="width: auto; height: 700px;object-fit: contain;" class="d-block w-100" alt="Nuclear Power Plant Workshop">
+                            </div>
+                            <!-- Add more carousel items if you have multiple images -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#nppCarousel7" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#nppCarousel7" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #cfe6dabb; border-radius: 80%; width: 55px; height: 55px;"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <h4 class="h5 mb-3">Key Responsibilities and Achievements:</h4>
+                    <ul>
+                        <li>Led the coordination of a comprehensive nuclear and radiological case study competition involving diverse aspects of nuclear and radiological incidents.</li>
+                        <li>Planned and executed the "Nuclear Marathon," an interactive event designed to foster teamwork and intellectual engagement among participants, involving fun activities like radiation source finding, nuclear quiz, and treasure hunt.</li>
+                        <li>Increased club membership by 30% through active recruitment and engaging activities.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-custom-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Md Nazmul Hassan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

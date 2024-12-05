@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Nazmul Hassan - Nuclear Engineering Graduate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .bg-custom-dark {
+            background-color: #1a202c;
+        }
+        .border-custom-green {
+            border-color: #48bb78 !important;
+        }
+        .text-custom-green {
+            color: #48bb78;
+        }
+        .btn-custom-green {
+            background-color: #48bb78;
+            border-color: #48bb78;
+            color: white;
+        }
+        .btn-custom-green:hover {
+            background-color: #38a169;
+            border-color: #38a169;
+            color: white;
+        }
+        .bg-custom-green {
+            background-color: #28a745; /* Example color */
+            color: white; /* Text color to make content visible */
+        }
+        .badge {
+            color: white; /* Ensure text is visible on green background */
+        }
+    </style>
+    <script>
+        function downloadFile() {
+            // Create an invisible anchor element
+            const link = document.createElement("a");
+    
+            // Set the URL of the file to be downloaded
+            link.href = "CV_Hassan.pdf"; // Replace with the actual file path or URL
+    
+            // Set the download attribute with a default file name
+            link.download = "yourfile.txt"; // This sets the file name for the download
+    
+            // Append the anchor to the body (necessary for Firefox)
+            document.body.appendChild(link);
+    
+            // Programmatically click the anchor to trigger the download
+            link.click();
+    
+            // Remove the anchor from the document after the download starts
+            document.body.removeChild(link);
+        }
+    </script>
+</head>
+<body class="bg-light">
+    <header class="bg-custom-dark text-white py-3 border-bottom border-4 border-custom-green">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <img src="profile-pic (1).png" alt="Profile picture" width="50" height="50" class="rounded-circle me-3">
+                    <h1 class="h4 mb-0">Md Nazmul Hassan</h1>
+                </div>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item" onclick="document.getElementById('research').scrollIntoView({ behavior: 'smooth' });"><a href="#research" class="nav-link text-white">Research</a></li>
+                        <li class="nav-item"><a href="education.html" class="nav-link text-white">Education</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container py-5">
+        <div class="row-md-3" style="display: flex; justify-content: center; align-items: center;">
+            <img src="profile-pic (1).png" alt="Dr. Md. Sifatul Muktadir" width="350" height="350" class="rounded-circle" >
+        </div>
+        <section class="text-center mb-5">
+            <h2 class="display-4 mb-3">Nuclear Engineering Graduate</h2>
+            <p class="lead mb-4">Passionate about advancing nuclear technology for a sustainable future</p>
+            <button class="btn btn-custom-green btn-lg" onclick="downloadFile()">Download CV</button>
+        </section>
+
+        <section id="about" class="mb-5">
+            <h3 class="h2 mb-4">About Me</h3>
+            <div class="card border-start border-4 border-custom-green">
+                <div class="card-body">
+                    <p>I am a recent graduate in Nuclear Science and Engineering from the Military Institute of Science and Technology (MIST), with a keen interest in nuclear materials and their interactions with radiation. Through my academic projects, I have gained experience in material characterization, radiation effects, nuclear safety, dosimetry, and health physics. I am eager to learn and contribute to advancements in clean energy, radiation-resistant materials, and the safe application of nuclear technologies in various industries.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education" class="mb-5">
+            <h3 class="h2 mb-4">Education</h3>
+            <div class="card border-start border-4 border-custom-green">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h4 class="card-title">BSc in Nuclear Science and Engineering</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://mist.ac.bd/" target="_blank" rel="noopener noreferrer" class="text-muted">
+                                    Military Institute of Science and Technology (MIST), Dhaka
+                                </a>
+                            </h6>
+                            <p class="card-text">Graduation: April, 2023</p>
+                            <p class="card-text">Cumulative GPA: 3.43/4.00</p>
+                            <a href="education.html" class="text-custom-green">View more details</a>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="logo.png" alt="MIST Logo" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="mb-5">
+            <h3 class="h2 mb-4">Research Experience</h3>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-top border-4 border-custom-green">
+                        <p></p>
+                        <img src="rover_poster.png" style="width: auto; height: 400px;object-fit: contain;" class="card-img-top" alt="Radiation Survey and Rescue Rover">
+                        <div class="card-body">
+                            <h4 class="card-title">Radiation Detection and Assistant Robot</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Undergraduate Research Project</h6>
+                            <p class="card-text">Developed a remote radiation monitoring robot utilizing a GM counter, featuring real-time data telemetry, location tracking, and composite lead shielding for the control electronics and radiation source storage.</p>
+                            <a href="radiation-robot.html" class="text-custom-green">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-top border-4 border-custom-green">
+                        <p></p>
+                        <img src="pallete.jpeg" style="width: auto; height: 400px;object-fit: contain;" class="card-img-top" alt="Thermoluminescence Dosimetry Setup">
+                        <div class="card-body">
+                            <h4 class="card-title">Thermoluminescent Dosimetry Research</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Undergraduate Thesis</h6>
+                            <p class="card-text">Synthesized and characterized Zinc and Yttrium-doped LiMgBO<sub>3</sub> for thermoluminescence dosimetry. Assessed physical properties and studied thermoluminescence response after gamma irradiation.</p>
+                            <a href="thermoluminescence-dosimetry.html" class="text-custom-green">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ <!--Additional research section-->
+        <section id="research" class="mb-5">
+            <h3 class="h2 mb-4">Additional Research Experience</h3>
+            <div class="card h-100 border-top border-4 border-custom-green">
+                <img src="Linac whole.jpg" style="width: auto; height: 400px; object-fit: contain;" class="card-img-top" alt="Radiation Survey and Rescue Rover">
+                <div class="card-body">
+                    <h4 class="card-title">Applicability of Newly Developed Lithium Zinc Borate Material for Thermoluminescent Dosimetry</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Currently working on this research with Dr. Al-Mamun and Dr. A.K.M. Mizanur Rahman as a research student</h6>
+                 <p class="card-text">Irradiation and analysis of characteristics such as energy dependency, fading, and reproducibility for the newly developed LiZnBO<sub>3</sub>.</p>
+                    <a href="Additional research.html" class="text-custom-green">Learn more</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--publication section-->
+        <section id="publications" class="mb-5">
+            <h3 class="h2 mb-4">Publications</h3>
+            <div class="card border-start border-4 border-custom-green">
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Journal Name</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Design and Development of a Radiation Survey and Rescue Robot with Shielding of Electronic Equipment from Radiation Damage with Image Radiation Mapping Facility</td>
+                                <td>International Journal of Nuclear Security</td>
+                                <td>Published</td>
+                                <td>
+                                    <a href="https://trace.tennessee.edu/ijns/vol9/iss2/4/" target="_blank">View Article</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Exploring the Effect of Zinc Doping on the Thermoluminescence Behavior of Lithium Magnesium Borate Exposed to Gamma Radiation</td>
+                                <td>Applied Radiation and Isotopes</td>
+                                <td>Under Review</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Optimized LiZnBO<sub>3</sub> Phosphor as a Promising Candidate for Low Dose Radiation Dosimetry</td>
+                                <td>Nuclear Engineering and Technology</td>
+                                <td>Under Review</td>
+                                <td>N/A</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="skills" class="mb-5">
+            <h3 class="h2 mb-4">Skills</h3>
+            <div class="card">
+                <div class="card-body">
+                    <span class="badge bg-custom-green me-2 mb-2">Radiation Detection</span>
+                    <span class="badge bg-custom-green me-2 mb-2">Materials Characterization</span>
+                    <span class="badge bg-custom-green me-2 mb-2">Thermoluminescence Dosimetry</span>
+                    <span class="badge bg-custom-green me-2 mb-2">Autodesk Fusion 360</span>
+                    <span class="badge bg-custom-green me-2 mb-2">Origin</span>
+                    <span class="badge bg-custom-green me-2 mb-2">X'pert HighScore plus</span>
+                    <span class="badge bg-custom-green me-2 mb-2">ImageJ</span>
+                    <span class="badge bg-custom-green me-2 mb-2">C</span>
+                    <span class="badge bg-custom-green me-2 mb-2">Python</span>
+                    <span class="badge bg-custom-green me-2 mb-2">MATLAB</span>
+                    <span class="badge bg-custom-green me-2 mb-2">OpenMc</span>
+                    <span class="badge bg-custom-green me-2 mb-2">3D Printing</span>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section id="contact" class="mb-5">
+            <h3 class="h2 mb-4">Contact</h3>
+            <div class="card text-center">
+                <div class="card-body">
+                    <i class="bi bi-envelope text-custom-green" style="font-size: 2rem;"></i>
+                    <p class="card-text mb-4">Interested in collaborating or have any questions?</p>
+                    <a href="contact.html" class="btn btn-custom-green mb-4">
+                        <i class="bi bi-envelope me-2"></i>Contact Me
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-custom-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Md Nazmul Hassan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
